@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+  .navbar__list-item {
+    display: none;
+  }
+  .navbar__list-link a {
+    display: none;
+  }
+  .hero {
+    display: none;
+  }
+}
+.navbar {
+  width: 100%;
+  height: 30px;
+  padding: 0 20px;
+  background-color: #fff;
+}
+.navbar .navbar__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.navbar .navbar__list-link a {
+  text-decoration: none;
+  background: #00D465;
+  border-radius: 5px;
+  width: 182px;
+  height: 16px;
+  left: 1302px;
+  top: 34px;
+  padding: 12px 13px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+.navbar .navbar__list-item {
+  list-style-type: none;
+}
+.navbar .navbar__list-item a {
+  text-decoration: none;
+  color: #444444;
+}
+
+.hero .container {
+  text-align: right;
+  padding-top: 87px;
+  background-image: url(../../img/mainbg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 630px;
+}
+.hero .container .hero__title {
+  margin-left: 767px;
+  margin-right: 100px;
+  font-size: 56px;
+  font-weight: 700;
+  color: white;
+}
+.hero .container .hero__text {
+  margin-top: 30px;
+  margin-left: 1050px;
+  margin-right: 100px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: right;
+  color: #FFFFFF;
+}
+.hero .container .hero__btn {
+  width: 160px;
+  height: 49px;
+  margin-top: 20px;
+  margin-right: 100px;
+  color: white;
+  border: none;
+  background: #00D465;
+  border-radius: 5px;
+}
+
+.cards {
+  padding-left: 200px;
+  margin-right: 200px;
+}
+.cards .container {
+  margin-bottom: 30px;
+}
+.cards .container h2 {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+.cards .container h2 span {
+  color: #00D465;
+}
+.cards .container .cards__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.cards .container .cards__list-item {
+  width: 195px;
+  height: auto;
+  padding: 15px;
+  margin: 15px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(32, 38, 71, 0.25);
+  border-radius: 10px;
+  text-align: center;
+}
+.cards .container .cards__list-item img {
+  margin-top: 15px;
+  margin-bottom: 18px;
+}
+.cards .container .cards__list-item p {
+  font-weight: 300;
+  font-size: 12px;
+  margin-top: 20px;
+}
+.cards .container .cards__list-item h6 {
+  font-weight: 700;
+  margin-top: 30px;
+  font-size: 14px;
+}
+.cards .container .cards__list-item span {
+  width: 35px;
+  height: 35px;
+  margin: 0 auto;
+}
+.cards .container .cards__list-item button {
+  background: #00D465;
+  border-radius: 5px;
+  padding: 4px 8px;
+  width: 173px;
+  margin-top: 10px;
+  border: none;
+}
+
+.contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url(../../img/contactbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.contact .container .contact__title {
+  width: 627px;
+  height: 68px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  margin-left: 248px;
+  color: #FFFFFF;
+}
+.contact .container .contact__area {
+  background: #FFFFFF;
+  border: 2px solid #D6D6D6;
+  border-radius: 10px;
+  margin-left: 248px;
+  width: 550px;
+  height: 200px;
+  margin-top: 60px;
+}
+.contact .container select {
+  background: #FFFFFF;
+  border: 2px solid #D6D6D6;
+  border-radius: 10px;
+  width: 300px;
+  height: 55px;
+  position: absolute;
+  top: 170px;
+  margin-left: 40px;
+}
+.contact .container input {
+  background: #FFFFFF;
+  border: 2px solid #D6D6D6;
+  border-radius: 10px;
+  width: 300px;
+  height: 55px;
+  margin-left: 40px;
+  position: absolute;
+  margin-top: 20px;
+  top: 215px;
+}
+.contact .container button {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 55px;
+  margin-left: 40px;
+  margin-top: 15px;
+  position: absolute;
+  margin-top: 15px;
+  background-color: #00D465;
+  color: white;
+  top: 290px;
+}/*# sourceMappingURL=main.css.map */
